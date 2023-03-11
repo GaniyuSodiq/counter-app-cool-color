@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background: #DAEEED;
+    color: #034E49;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+
+button{
+    width: 200px;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#increase-btn{
+    background: #FF6634;
+}
+
+#increase-btn:active{
+    background: #dd5a2f;
+    width: 198px;
+}
+
+
+#save-btn{
+    background: #034E49;
+}
+
+#save-btn:active{
+    background: #023d39;
+    width: 198px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
