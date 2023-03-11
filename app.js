@@ -1,14 +1,15 @@
 
 let counts = 0
-
+let countEl = document.getElementById("count-el")
+let previousCounts = document.getElementById("previuos-counts")
 
 function increase() {
     counts = counts + 1
-    document.getElementById("count-el").textContent = counts
+    countEl.textContent = counts
 }
 
 function save(){
-    document.getElementById("previuos-counts").textContent += counts + " - "
+    previousCounts.textContent += counts + " - "
     counts = 0
-    document.getElementById("count-el").textContent = 0
+    countEl.textContent = 0
 }
